@@ -5,40 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fatima's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
 </head>
-<body style="margin: 0px; font-family: arial,helvetica,sans-ser">
-    <header style=" text-align: center; font-size: 30px; margin: 0;">
-        <h2 style="margin-top: 20px; margin-bottom: 0px"><span style="color: #722F37;">FATIMA</span> OLASUNKANMI-OJO</h2>
-        <h4 style="margin-bottom: 60px; margin-top: 10px;">FRONT END DEVELOPER</h4>
+<body >
+    <header>
+        <h2><span>FATIMA</span> OLASUNKANMI-OJO</h2>
+        <h4>FRONT END DEVELOPER</h4>
     </header>
-    <section style="display: -webkit-flex; display: flex;">
-        <article style="-webkit-flex: 1; -ms-flex: 1; flex: 1; padding-left: 70px;">
-            <img src="image/Fatima.jpg" alt="fatima picture" width="150px" height="150px"/>
-            <h3 style="color: #722F37; ">CONTACTS</h3>
-            <P>+234 806 665 6856</P>
-            <p><a href="mailto:fatimaolasunkanmi01@gmail.com" style="text-decoration: none; color:#000000">fatimaolasunkanmi01@gmail.com</a></p>
-            <p><a href="https://github.com/fatima-ola" style="text-decoration: none; color:#000000">https://github.com/fatima-ola</a></p>
-            <div>
-                <h3 style="color: #722F37; ">SKILLS</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>ReactJs</li>
-                </ul>
-            </div>
-            <div>
-                <h3 style="color: #722F37; ">SOCIAL MEDIA</h3>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/fatima-olasunkanmi-ojo-152037149" style="text-decoration: none; color:#000000">Linkedin</a></li>
-                    <li><a href="https://twitter.com/fatima_ola1" style="text-decoration: none; color:#000000">Twitter</a></li>
-                    <li><a href="https://medium.com/@fatima/" style="text-decoration: none; color:#000000">Medium</a></li>
-                </ul>
-            </div>
-        </article>
-        <aside style="-webkit-flex: 3; -ms-flex: flex; flex: 3; ">
-           <div>
-            <h3 style="color: #722F37; ">PROFESSIONAL PROFILE</h3>
+<div class="row">
+    <article class="column side">
+        <img src="image/Fatima.jpg" alt="fatima picture" width="150px" height="150px"/>
+        <div>
+            <h3 >CONTACTS</h3>
+        <P>+234 806 665 6856</P>
+        <p><a href="mailto:fatimaolasunkanmi01@gmail.com" >fatimaolasunkanmi01@gmail.com</a></p>
+        <p><a href="https://github.com/fatima-ola" >https://github.com/fatima-ola</a></p>
+        </div>
+        <div class="skills">
+            <h3 >SKILLS</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>ReactJs</li>
+            </ul>
+        </div>
+        <div class="social-links">
+            <h3 >SOCIAL MEDIA</h3>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/fatima-olasunkanmi-ojo-152037149" >Linkedin</a></li>
+                <li><a href="https://twitter.com/fatima_ola1" >Twitter</a></li>
+                <li><a href="https://medium.com/@fatima/" >Medium</a></li>
+            </ul>
+        </div>
+    </article>
+    
+    <article class="column main">
+        <div>
+            <h3 class="profile">PROFESSIONAL PROFILE</h3>
             <p>I am a software developer that has the ability to work 
                 effectively, I can quickly learn new technologies, <br> I am well organized and efficient.
                 I implement visual, responsive and interactive elements that users engage <br >
@@ -48,30 +53,30 @@
                 user experience using technologies.</p>
            </div> 
            <div>
-            <h3 style="color: #722F37; ">EXPERIENCE</h3>
-            <div>
-                <P>Junior Software Engineer <span style="padding-left: 150px;"><em><b>2021</b></em></span></P>
-                <p><em>Descasio Lagos, Nigeria</em></p>
-                <ul>
-                    <li>I actively contributed to products design and features implementation.</li>
-                    <li>I breathe life to mockup designs and Figma designs.</li>
-                    <li>I implemented Visual elements that users see and interact with.</li>
-                </ul>
-            </div>
-            <div>
-                <P>Front End Developer Intern <span style="padding-left: 150px;"><em><b>2020</b></em></span></P>
-                <p><em>PearlsAfrica Lagos, Nigeria</em></p>
-                <ul>
-                    <li>Collaborate with a team of five members to build an online platform application <br>for
-                        farmers and masses to buy and sell organic, fresh and consumable agricultural
-                        produce</li>
-                    <li>Managed the project repository, assigned tasks to team members, review and
-                        accept pull requests, <br>resolve conflict, merge code from other branches to the main
-                        branch</li>
-                </ul>
-            </div>
+                <h3 class="profile">EXPERIENCE</h3>
+                <div>
+                    <P>Junior Software Engineer <span><em><b>2021</b></em></span></P>
+                    <p><em>Descasio Lagos, Nigeria</em></p>
+                    <ul>
+                        <li>I actively contributed to products design and features implementation.</li>
+                        <li>I breathe life to mockup designs and Figma designs.</li>
+                        <li>I implemented Visual elements that users see and interact with.</li>
+                    </ul>
+                </div>
+                <div>
+                    <P>Front End Developer Intern <span><em><b>2020</b></em></span></P>
+                    <p><em>PearlsAfrica Lagos, Nigeria</em></p>
+                    <ul>
+                        <li>Collaborate with a team of five members to build an online platform application <br>for
+                            farmers and masses to buy and sell organic, fresh and consumable agricultural
+                            produce</li>
+                        <li>Managed the project repository, assigned tasks to team members, review and
+                            accept pull requests, <br>resolve conflict, merge code from other branches to the main
+                            branch</li>
+                    </ul>
+                </div>
            </div>
-        </aside>
-    </section>
+    </article>
+</div>
 </body>
 </html>
